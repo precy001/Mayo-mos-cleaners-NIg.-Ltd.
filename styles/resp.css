@@ -1,0 +1,142 @@
+@media all and (max-width: 767px) {
+    html, body {
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+
+	body * {
+		box-sizing: border-box;
+	}
+
+	div.header {
+        width: 100%;
+		top: 0;
+		left: 0;
+		margin-bottom: 100px;
+    }
+
+    .about {
+        font-size: calc(13vw - 5px);
+        padding-top: 10vw;
+    }
+
+	.about-content {
+		width: 90%;
+		margin: 20px auto;
+	}
+
+	.js-form {
+		width: 85%;
+		margin: auto;
+	}
+
+	.info, .info-2, .message {
+		display: block;
+		margin: 5px;
+		width: 100%;
+		max-width: 310px;
+	}
+
+	.services {
+		flex-direction: column;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	.each-service {
+        width: 550px;
+        margin: auto;
+        max-width: 100%;
+
+		display: inline-block;
+		margin-top: 10px;
+    }
+
+	.service-img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	div.middle {
+        opacity: 1;
+    }
+
+    .middle > .button {
+        background-color: #56b66583;
+    }
+
+	.book-online-container {
+		flex-direction: column;
+	}
+
+	footer {
+        margin-top: 100px
+    }
+    
+    .footer-container {
+        flex-direction: column;
+    }
+
+	.footer-about-us, .footer-services, .footer-contact-info {
+        width: 100%;
+        margin-left: 0;
+        padding: 10px;
+    }
+
+	@media all and (min-width: 500px) {
+        .about {
+            font-size: 60px
+        }
+    }
+}
+
+@media all and (min-width: 768px) {
+	.services {
+		flex-wrap: wrap;
+		margin-left: 10px;
+		margin-right: 10px;
+		align-items: flex-start;
+	}
+
+	.each-service {
+		width: calc(50% - 25px);
+        margin: auto;
+        max-width: 100%;
+        margin-bottom: 50px;
+		display: inline-block;
+		height: 360px;
+		align-self: flex-start
+    }
+
+	.service-img {
+		max-width: 100%;
+		height: auto;
+		margin-bottom: auto
+	}
+
+	footer {
+        margin-top: 100px;
+		padding: 10px
+    }
+
+	@media all and (min-width: 1280px) {
+		.each-service {
+			width: calc(33.33% - 25px)
+		}
+	}
+}
+
+@media(orientation:portrait){
+    nav{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    .mobile-nav{
+        display:block;
+    }
+}
