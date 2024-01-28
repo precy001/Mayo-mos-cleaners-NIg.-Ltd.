@@ -10,7 +10,7 @@ const text = [`
             <div class="book-online">
             <a href="about-us.html" class="book">About-us</a>
             </div></div>`,
-            `<div class="each media"><span class="welcome">mayo-mos Cleaning</span>
+            `<div class="each media"><span class="welcome">Mayo-mos Cleaning</span>
             <span class="note">WE TAKE THE STRESS<span class="bold-note">OUT OF CLEANING</span> </span>
             <div class="book-online">
             <a href="services.html" class="book">Our services</a>
